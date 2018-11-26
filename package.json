@@ -4,11 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "nodemon dev-test.js"
+    "test": "jest --watchAll"
   },
   "author": "nvtuong",
   "license": "ISC",
   "devDependencies": {
+    "jest": "^23.6.0",
     "nodemon": "^1.18.6"
   },
   "dependencies": {
