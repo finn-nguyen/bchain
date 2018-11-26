@@ -18,7 +18,7 @@ class Block {
   }
 
   static genesis () {
-    return new this (Date.now(), '----', 'f1r57-h45h', [])
+    return new this ('genesis', '----', 'f1r57-h45h', [])
   }
 
   static mineBlock (lastBlock, data) {
